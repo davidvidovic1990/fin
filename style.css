@@ -91,9 +91,21 @@ a {
     transition: all .3s ease-in-out;
 }
 
-a.rt4rt:link {color:#0000ff;}
-a.rt4rt:visited {color:#860092;}
-a.rt4rt:hover {color:#0077ff;}
+
+
+a.rt4rt:link {
+    font-size: 25px;
+    text-decoration: none!important;
+    color:#0000ff;
+}
+a.rt4rt:visited {
+    text-decoration: none!important;
+    color:#860092;
+}
+a.rt4rt:hover {
+    text-decoration: underline!important;
+    color:#0077ff;
+}
 
 
 h1,
@@ -2605,13 +2617,16 @@ body.seo_version .footer-links a:hover{
 
 .all-page-title1{
 
-    background-image: url(images/Final_header_image.png);
+    background-image: url(images/Final_header_image1.png);
     background-color: #f0f0f0;
-    height: 830px;
+    height: 920px;
     background-position: center;
+    background-position: bottom; 
+
     background-repeat: no-repeat;
     background-size: 1731px 816px;
     position: static;
+
 
 
 }

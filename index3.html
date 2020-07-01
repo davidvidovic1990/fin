@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -57,7 +60,15 @@
 
                     <ul class="nav navbar-nav navbar-right menu-top">
                         <li><a class="active" href="index3.html">Home</a></li>
-                        <li><a href="research.html">Research</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="dropbtn" href="research.html">Research &#9662;</a>
+                                <div class="dropdown-content">
+                                  <a class="blac" href="ourStructures.html">Our Structures</a>
+                                </div>
+                            </div> 
+                        
+                        </li>
 
                         <li>
                            <div class="dropdown">
@@ -78,6 +89,11 @@
             </div>
         </nav>
     </header>
+
+    <script>
+$('html, body').animate({scrollTop:$(document).height()}, 5000);
+    </script>
+
 <div class="all-page-title1"></div>
     <h1 style="color:#0080C6;   text-align: center; 	font-size: 36px;	font-weight: 700;">HASELBACH LAB</h1>
 
@@ -91,6 +107,6 @@
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
-
+        <div id="dataa">i</div>
 </body>
 </html>
