@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
    
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
      <!-- Site Metas -->
     <title>IMP - HASELBACH LAB</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="css/master.css">
 
     <!-- Site Icons -->
@@ -32,21 +34,25 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
+<style>
+    .mySlides {display:none;}
+    </style>
 <body class="seo_version">
 
 
 	
     <header class="header header_style_01">
-        <header class="header header_style_01">
-            <nav class="megamenu navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -57,15 +63,17 @@
                     <div id="navbar" class="navbar-collapse collapse">
     
                         <ul class="nav navbar-nav navbar-right menu-top">
-                            <li><a  href="index3.html">Home</a></li>
+                            <li><a  href="index.html">Home</a></li>
                             <li>
                                 <div class="dropdown">
-                                    <a class="dropbtn" href="research.html">Research &#9662;</a>
-                                    <div class="dropdown-content">
-                                      <a class="blac" href="ourStructures.html">Our Structures</a>
-                                    </div>
-                                </div> 
-                            </li>    
+                                 <a class="dropbtn">Research &#9662;</a>
+                                 <div class="dropdown-content">
+                                     <a class="blac" href="description.html">Description</a>
+                                     <a class="blac" href="ourStructures.html">Our Structures</a>
+                                 </div>
+                               </div> 
+                             </li>   
+                            <li>    
                             <li>
                                <div class="dropdown">
                                 <a class="dropbtn">Our Lab &#9662;</a>
@@ -84,26 +92,34 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
         <div class="all-page-title" style="padding: 200px 0px 110px 0px;">
             <div class="container text-center">
             <h1>Group Members</h1>
         </div>
     </div><!-- end section -->
-
+    <div  class="service-widget" style="height: 720px;">  
+        <div class="w3-content w3-display-container" style="height: 100%;">
+            <img id="slider" class="mySlides" src="images/group_photos/Corona_style.jpg" style="width:100%">
+            <img id="slider" class="mySlides" src="images/group_photos/Corona_style_2.jpg" style="width:100%">
+            <img id="slider" class="mySlides" src="images/group_photos/Group_photo.jpg" style="width:100%">
+            <img id="slider" class="mySlides" src="images/group_photos/Group_photo_2.jpg" style="width:100%">
+          </div>       
+    </div>
     
 
     <div id="currentMembers">
         <br>
         <h3 style="font-size: 1cm; color: #0080C6; -webkit-text-stroke: 0.2px black">Current members</h3>
-        <div class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member2.jpg">
-            <h2 style="font-size: 5mm;">Name: David</h2>
-            <h2 style="font-size: 5mm;">Surname: Haselbach</h2>
-            <h2 style="font-size: 5mm;">Position: Group Leader</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+        <div class="service-widget">  
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/David.jpg">
+            <h2>Name: David</h2>
+            <h2>Surname: Haselbach</h2>
+            <h2>Position: Group Leader</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%64%61%76%69%64%2E%68%61%73%65%6C%62%61%63%68%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -120,11 +136,11 @@
         <br>
 
         <div class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member1.jpg">
-            <h2 style="font-size: 5mm;">Name: Irina</h2>
-            <h2 style="font-size: 5mm;">Surname: Grishkovskaya</h2>
-            <h2 style="font-size: 5mm;">Position: Senior Research Assistant</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Irina.jpg">
+            <h2>Name: Irina</h2>
+            <h2>Surname: Grishkovskaya</h2>
+            <h2>Position: Senior Research Assistant</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%72%69%6E%61%2E%67%72%69%73%68%6B%6F%76%73%6B%61%79%61%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -144,11 +160,11 @@
         <br>
 
         <div class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member1.jpg">
-            <h2 style="font-size: 5mm;">Name: Pavel</h2>
-            <h2 style="font-size: 5mm;">Surname: Harar</h2>
-            <h2 style="font-size: 5mm;">Position: Visiting PostDoc</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/nophoto.jpg">
+            <h2>Name: Pavel</h2>
+            <h2>Surname: Harar</h2>
+            <h2>Position: Visiting PostDoc</h2>
+            <h2>Contact: 
 
             </h2>
             <p style="color:black">I am a machine learning researcher and engineer focused on fundamental research in deep learning. In Haselbach Lab I am working on various projects all aimed at streamlining tomography using deep neural networks. The vision is to accelerate biomedical research and making a positive impact on our society, which is why I enjoy being a scientist. I am a husband and a father and in my free time I used to be a drummer</p>
@@ -157,11 +173,11 @@
         <br>
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member2.jpg">
-            <h2 style="font-size: 5mm;">Name: Katarina</h2>
-            <h2 style="font-size: 5mm;">Surname: Belačić</h2>
-            <h2 style="font-size: 5mm;">Position: PhD student</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Katarina.jpg">
+            <h2>Name: Katarina</h2>
+            <h2>Surname: Belačić</h2>
+            <h2>Position: PhD student</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6B%61%74%61%72%69%6E%61%2E%62%65%6C%61%63%69%63%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -182,11 +198,11 @@
 
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member3.jpg">
-            <h2 style="font-size: 5mm;">Name: Lorenz</h2>
-            <h2 style="font-size: 5mm;">Surname: Perschy</h2>
-            <h2 style="font-size: 5mm;">Position: PhD student</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Lorenz.jpg">
+            <h2>Name: Lorenz</h2>
+            <h2>Surname: Perschy</h2>
+            <h2>Position: PhD student</h2>
+            <h2>Contact: 
                 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6C%6F%72%65%6E%7A%2E%70%65%72%73%63%68%79%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
@@ -201,11 +217,11 @@
         <br>
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member4.jpg">
-            <h2 style="font-size: 5mm;">Name: Hanna Leonie</h2>
-            <h2 style="font-size: 5mm;">Surname: Brunner</h2>
-            <h2 style="font-size: 5mm;">Position: PhD student</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Hanna.jpg">
+            <h2>Name: Hanna Leonie</h2>
+            <h2>Surname: Brunner</h2>
+            <h2>Position: PhD student</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%68%61%6E%6E%61%2E%62%72%75%6E%6E%65%72%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -219,11 +235,11 @@
         <br>
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member4.jpg">
-            <h2 style="font-size: 5mm;">Name: Sascha Josef</h2>
-            <h2 style="font-size: 5mm;">Surname: Amann</h2>
-            <h2 style="font-size: 5mm;">Position: Master student</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Sascha.jpg">
+            <h2>Name: Sascha Josef</h2>
+            <h2>Surname: Amann</h2>
+            <h2>Position: Master student</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%61%73%63%68%61%2E%61%6D%61%6E%6E%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -237,11 +253,11 @@
         <br>
         
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member5.jpg">
-            <h2 style="font-size: 5mm;">Name: Susanne</h2>
-            <h2 style="font-size: 5mm;">Surname: Kandolf</h2>
-            <h2 style="font-size: 5mm;">Position: Research Technician</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Susanne.jpg">
+            <h2>Name: Susanne</h2>
+            <h2>Surname: Kandolf</h2>
+            <h2>Position: Research Technician</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%53%75%73%61%6E%6E%65%2E%6B%61%6E%64%6F%6C%66%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -259,13 +275,34 @@
         </div>
 
         <br>
+        
+        <div  class="service-widget">         
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Daniel.jpg">
+            <h2>Name: Daniel</h2>
+            <h2>Surname: Azar</h2>
+            <h2>Position: Research Technician</h2>
+            <h2>Contact: 
+                <a href="https://orcid.org/0000-0003-0442-1171">
+                    <img src="images/icons/id.png" alt="ORCID" style="width:40px;height:40px;border:0">
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-f-azar">
+                    <img src="images/icons/linkedin.png" alt="linkedin" style="width:42px;height:42px;border:0">
+                </a>
+                <a href="https://www.youtube.com/channel/UC3irdPNgo3-0WBud7GvNUnw">
+                    <img src="images/icons/youtube.png" alt="youtube" style="width:80px;height:40px;border:0">
+                </a>
+            </h2>
+            <p style="color:black;">Working in scientific research is about learning and acquiring knowledge, but above all it is about helping generate knowledge and explaining natural phenomena or advancing theories that could later lead to practical breakthroughs. What drives me forward is the excitement in learning and discovering new molecular and cellular mechanisms and using techniques in biochemistry, structural and cellular biology to this end. In this lab, I am performing biochemical activity assays to help shed light on the characteristics and functions of hybrid proteasomes. Outside the lab, my main fields of interest include classical music, languages, history and singing Lieder, opera arias and French variété songs as a hobby.</p>
+        </div>
+
+        <br>
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member5.jpg">
-            <h2 style="font-size: 5mm;">Name: Demian</h2>
-            <h2 style="font-size: 5mm;">Surname: Keihsler</h2>
-            <h2 style="font-size: 5mm;">Position: Research Technician</h2>
-            <h2 style="font-size: 5mm;">Contact: 
+            <img class="members" style="float:left; padding: 0px 10px 5px 0px;" src="images/members/Demian.jpg">
+            <h2>Name: Demian</h2>
+            <h2>Surname: Keihsler</h2>
+            <h2>Position: Research Technician</h2>
+            <h2>Contact: 
                 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%64%65%6D%69%61%6E%2E%6B%65%69%68%73%6C%65%72%40%69%6D%70%2E%61%63%2E%61%74">
                     <img src="images/icons/mail.png" alt="mail" style="width:42px;height:42px;border:0">
                 </a>
@@ -281,13 +318,11 @@
     </div><!-- end currentMembers -->
 
     <div id="formerMembers"></div>
-        <h3 style="font-size: 1cm;">Former members</h3>
-
+        <h3 style="font-size: 1cm; color: #0080C6; -webkit-text-stroke: 0.2px black">Former members</h3>
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member1.jpg">
-            <h2 style="font-size: 5mm;">Name: Jonathan</h2>
-            <h2 style="font-size: 5mm;">Surname: Koschera</h2>
-            <h2 style="font-size: 5mm;">Position: Master student</h2>
+            <h2>Name: Jonathan</h2>
+            <h2>Surname: Koschera</h2>
+            <h2>Position: Master student</h2>
             </h2>
             <p style="color:black;">There is something inherently interesting about being able to see protein complexes at atomic resolution. I am working on a 26S proteasome complex and I enjoy the freedom to learn and try we have in this lab all the while being supervised well. If I am not in the lab however I'm either climbing in the gym or at the Hohe Wand.</p>
         </div>
@@ -295,10 +330,9 @@
         <br>
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member2.jpg">
-            <h2 style="font-size: 5mm;">Name: Mikhail</h2>
-            <h2 style="font-size: 5mm;">Surname: Valkov</h2>
-            <h2 style="font-size: 5mm;">Position: Intern</h2>
+            <h2>Name: Mikhail</h2>
+            <h2>Surname: Valkov</h2>
+            <h2>Position: Intern</h2>
             </h2>
             <p style="color:black;">Since its early history humanity was eager to create inventions that would simplify their daily work and expand their free time. Without a doubt, the 21st century will be designated as the era of artificial intelligence and machine learning, which spread so deep in our routine life and successfully hide in the background, that we don’t really perceive its existence. As a part of the Haselbach group I am using machine learning approaches to develop new image processing strategies in single particle cryo-EM.
                 Apart from the lab work, I spend my time doing sports, dancing and playing chess. 
@@ -309,10 +343,9 @@
     
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member3.jpg">
-            <h2 style="font-size: 5mm;">Name: Ines</h2>
-            <h2 style="font-size: 5mm;">Surname: Martínez Martín</h2>
-            <h2 style="font-size: 5mm;">Position: Summer school student</h2>
+            <h2>Name: Ines</h2>
+            <h2>Surname: Martínez Martín</h2>
+            <h2>Position: Summer school student</h2>
             </h2>
             <p style="color:black;">I worked in Haselbach lab for 9 weeks as a summer school student, and I have nothing but good things to say about the lab. I had a great time working on my project and learning about structural biology and biophysics, always supported by all the members of the lab. Highly recommended experience!</p>
         </div>
@@ -320,10 +353,9 @@
         <br>
 
         <div  class="service-widget">         
-            <img style="float:left; padding: 10px 10px 5px 0px;" src="images/members/member4.jpg">
-            <h2 style="font-size: 5mm;">Name: Dana</h2>
-            <h2 style="font-size: 5mm;">Surname: Grozavu</h2>
-            <h2 style="font-size: 5mm;">Position: Summer school student</h2>
+            <h2>Name: Dana</h2>
+            <h2>Surname: Grozavu</h2>
+            <h2>Position: Summer school student</h2>
             </h2>
             <p style="color:black;">I am a biochemistry student and spending my summer in this lab was a useful research experience that helped me become more confident and independent.</p>
         </div>
@@ -337,6 +369,24 @@
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+
+    <script>
+        var myIndex = 0;
+        showDivs();
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(showDivs, 4000); // Change image every 2 seconds
+
+        }
+        </script>
 
 </body>
 </html>

@@ -96,7 +96,7 @@ a {
 a.rt4rt:link {
     font-size: 25px;
     text-decoration: none!important;
-    color:#0077ff;
+    color:#0080C6;
 }
 a.rt4rt:visited {
     text-decoration: none!important;
@@ -1437,10 +1437,18 @@ body.seo_version .btn-light.ban-btn{
 -------------------------------------------------------------------*/
 
 .service-widget h3 {
-    font-size: 21px;
+    font-size: 7mm;
     color: #ffffff;
     padding: 20px 0 12px;
     margin: 0;
+}
+
+
+
+.service-widget h2 {
+    font-size: 7mm;
+    color: #0080C6;
+    -webkit-text-stroke: 0.2px black;
 }
 
 .service-widget h3 a,
@@ -1452,6 +1460,8 @@ body.seo_version .btn-light.ban-btn{
 .service-widget p {
     margin-bottom: 0;
     padding-bottom: 0;
+    font-size: 21px;
+
 }
 
 .message-box h4 {
@@ -2689,15 +2699,32 @@ body.seo_version .footer-links a:hover{
     box-shadow: 10px 10px 15px 0px #ccc;
 }
 
+.members{
+    position: relative;
+    width:187px;
+    height:280px;
+    z-index:1;
+
+}
+
+.members:hover {
+    display: block;
+    transition: transform .2s; /* Animation */
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(2); 
+    margin: auto;
+    position: relative;
+    left: 4%;
+
+    
+    z-index:2;
+  }
 
 
-
-
-
-
-
-
-
+.slider {
+    position: relative;
+}
 
 
 
